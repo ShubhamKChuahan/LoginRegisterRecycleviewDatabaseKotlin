@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:screenOrientation="portrait"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="@dimen/_5sdp"
+    card_view:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp">
+            <TextView
+                android:id="@+id/cName"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_below="@+id/cName"
+                android:id="@+id/cEmail"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_below="@+id/cEmail"
+                android:id="@+id/cphoneNum"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_below="@+id/cphoneNum"
+                android:id="@+id/cGender"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_below="@+id/cGender"
+                android:id="@+id/cCity"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
